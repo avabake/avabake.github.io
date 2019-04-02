@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'caroniregular';
+    src: url('font/caroni-regular-webfont.woff2') format('woff2'),
+         url('font/caroni-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'snicklesregular';
+    src: url('font/snickles-webfont.woff2') format('woff2'),
+         url('font/snickles-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    outline: 1px solid red;
+}
+
+
+body {
+    background-color:#b0e3e4;;
+    background-image: url(website/header_everything.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+	background-position: top;
+    margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+    
+    font-family: 'snicklesregular';
+
+}
+
+#nav {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	margin-top: 30px;
+    font-size: 4.4em;
+    text-align: center;
+    color: #0d1e32;
+	grid-column: 1/4;
+	padding-bottom: 200px;
+}
+
+#nav a {
+    text-decoration: none;
+    color:#0d1e32;
+}
+
+#nav a.selected {
+       text-decoration-line:underline
+}
+
+#nav a:hover {
+    color: goldenrod;
+}
+
+
+
+}
+
+#img {
+    background-image: url(website/top_spat.png);
+    background-color: #b0e3e4;
+    margin: auto;
+	max-width: 1000px;
+	margin-top: 230px;
+    font-size: 8em;
+    text-align: center;
+    color: #0d1e32;
+	padding-bottom: 200px;
+    background-size: 100%;
+}
+

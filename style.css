@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'caroniregular';
+    src: url('font/caroni-regular-webfont.woff2') format('woff2'),
+         url('font/caroni-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'snicklesregular';
+    src: url('font/snickles-webfont.woff2') format('woff2'),
+         url('font/snickles-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+* {
+    outline: 1px solid red;
+}
+
+body {
+    background-color:#b0e3e4;
+    background-image: url(website/header_everything.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+	background-position: top;
+    margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+    
+    font-family: 'snicklesregular';
+
+}
+#grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+#nav {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	margin-top: 30px;
+    font-size: 4.4em;
+    text-align: center;
+    color: #0d1e32;
+	grid-column: 1/4;
+	padding-bottom: 200px;
+}
+
+#nav a {
+    text-decoration: none;
+    color:#0d1e32;
+}
+
+#nav a.selected {
+       text-decoration-line:underline
+}
+
+#nav a:hover {
+    color: goldenrod;
+}
+
+#about_us {
+	margin-top: 0px;
+	margin-left: auto;
+	padding: 150px;
+	padding-top: 00px;
+    background-image: url(website/top_spat.png);
+    background-position: -100px -160px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    height:490px;
+    color: #0d1e32;
+	max-width: 250px;
+	text-align: center;
+    
+}
+
+#about_us p {
+	font-size: .8em;
+    font-family: 'caroniregular';
+}
+
+#about_us h1 {
+	margin: 0px;
+    padding-top: 100px;
+    font-size: 3em;
+}
+
+#learn_more {
+    background-image: url(website/bottome_splat.png);
+	background-position:
+    -820 -230px;
+	background-repeat: no-repeat;
+	background-size: 280%;
+	height: 350px;
+	padding: 50px;
+	padding-left: 150px;
+	padding-top: 150px;
+	margin-right: auto;
+	margin-left: 250px;
+	max-width: 300px;
+	font-size: 20px;
+    text-align: center;
+}
+
+#learn_more h2 {
+    font-size: 3em;
+    margin-top: 50px;
+    margin-right: 70px;
+    
+    
+}
+
+#THE-LOGO h1 {
+    font-size: 6em;
+    text-align: center;
+    margin-top: -100px;
+        
+}
+#THE-LOGO p1 {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'caroniregular';
+        
+}

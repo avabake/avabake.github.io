@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'caroniregular';
+    src: url('font/caroni-regular-webfont.woff2') format('woff2'),
+         url('font/caroni-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'snicklesregular';
+    src: url('font/snickles-webfont.woff2') format('woff2'),
+         url('font/snickles-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    outline: 1px solid red;
+}
+
+
+body {
+    background-color:#f0eee1;
+    background-image: url(dripping_milk1_blue_with_logo_top.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+	background-position: top;
+    margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+    
+    font-family: 'snicklesregular';
+
+}
+
+#nav {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	margin-top: 30px;
+    font-size: 4.4em;
+    text-align: center;
+    color: #0d1e32;
+	grid-column: 1/4;
+	padding-bottom: 200px;
+}
+
+#nav a {
+    text-decoration: none;
+    color:#0d1e32;
+}
+
+#nav a.selected {
+       text-decoration-line:underline
+}
+
+#nav a:hover {
+    color: goldenrod;
+}
+
+
+
+#learn_more h2 {
+    font-size: 3em;
+    margin-top: 50px;
+    margin-right: 70px;
+    
+    
+}
+
+#THE-CHARACTER h1 {
+    font-size: 6em;
+    text-align: center;
+    margin-top: -100px;
+        
+}
+#THE-CHARACTERO p1 {
+    background-image:url(Ilustor/dripping_milk2_cream.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'caroniregular';
+    font-weight: bold;
+    font-style: bold;
+}
+#img {
+    background-image: url(website/website/images/characters.png);
+    text-align: center;
+    
+}
